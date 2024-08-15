@@ -1,3 +1,21 @@
 @charset "UTF-8";
 
 /* Todo tipo de tela */
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html, body {
+    width: 100vw;
+    height: 100vh;
+    background-color: #233eff;
+}
+
+h1 {
+    color: white;
+    text-shadow: 2px 12px 0px #111d778c;
+    padding: 10px;
+}
