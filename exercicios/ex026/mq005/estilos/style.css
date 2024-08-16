@@ -11,7 +11,7 @@ body, html {
 }
 
 header {
-    background-color: lightgrey;
+    background-color: rgb(105, 100, 100);
 }
 
 header h1 {
@@ -56,9 +56,8 @@ menu a:hover {
 
 main article {
     background-color: white;
-    margin: auto;
+    margin: 20px auto;
     padding: 20px;
-    margin: 20px;
     border-radius: 20px;
     max-width: 90vw;
 }
