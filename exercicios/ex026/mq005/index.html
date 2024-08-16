@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Query</title>
+    <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <span class="material-symbols-outlined" id="burguer" onclick="clickmenu()">menu</span>
+        <menu id="menuburg">
+            <ul>
+                <li><a href="#">Opção 1</a></li>
+                <li><a href="#">Opção 2</a></li>
+                <li><a href="#">Opção 3</a></li>
+                <li><a href="#">Opção 4</a></li>
+                <li><a href="#">Opção 5</a></li>
+            </ul>
+        </menu>
+    </header>
+    <main>
+        <article>
+            <h2>Testando media queries</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Recusandae accusamus alias natus error temporibus asperiores aperiam dolorum doloribus cupiditate quod, voluptatibus placeat hic quo ipsa atque qui officia, unde aspernatur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Est aut minima adipisci quia iste quasi animi, repudiandae provident ipsam! Eos iste optio ullam quod repellendus quo rem! Iste, fugit porro!</p>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. In dignissimos qui eaque voluptatum ad vero laboriosam quam at recusandae, exercitationem ullam nostrum unde praesentium vitae hic, ratione error et enim? Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, facilis. Eveniet maiores distinctio neque nesciunt eum molestiae eos mollitia facilis rem. Soluta non perferendis aliquam doloribus sunt consequatur labore repellendus! Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, tempore suscipit iste molestias impedit cumque consequatur dicta dolorum veritatis dolorem nemo explicabo nihil amet quae provident, culpa illum! Laboriosam, provident? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore unde omnis dignissimos pariatur commodi quos veniam delectus sint corporis hic quo totam nemo aspernatur animi, tempora doloremque ipsam labore consectetur!</p>
+            <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla tempora officiis accusantium vero laudantium voluptatem exercitationem, minima fugit aliquam laboriosam asperiores! Pariatur dolore laboriosam eos ea sequi? Nobis, libero exercitationem. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere officia expedita necessitatibus qui sequi voluptas maiores reiciendis sint. Vel eius eveniet asperiores sed soluta provident incidunt ipsam ipsa iure laudantium? Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam illum quod minus. Deserunt tenetur voluptas exercitationem ipsa ad veniam, ut facilis quis ipsum, laboriosam ullam cum deleniti, qui aperiam architecto? Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus placeat dignissimos non voluptatum, illo vero quos error. Labore, corrupti doloremque deserunt debitis aliquid tempora, quaerat sit est corporis laborum obcaecati.</p>
+        </article>
+    </main>
+
+    <script>
+        function clickmenu() {
+            if (menuburg.style.display == 'block') {
+                menuburg.style.display = 'none'
+            }
+
+            else {
+                menuburg.style.display = 'block'
+            }
+        } 
+    </script>
+</body>
+</html>
